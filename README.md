@@ -1,7 +1,8 @@
 ## Chatbot-react-native
 
 
-import React, { useState } from 'react';
+```bash
+ import React, { useState } from 'react';
 import { View, TextInput, Text, FlatList, StyleSheet, TouchableOpacity } from 'react-native';
 
 function Chatbot() {
@@ -161,4 +162,7 @@ const styles = StyleSheet.create({
 
 export default Chatbot;
 
+
+
+```
 
