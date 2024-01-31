@@ -35,7 +35,7 @@ function Chatbot() {
   };
 
   async function processMessageToChatGPT(chatMessages) {
-    const API_KEY = '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';
+    const API_KEY = 'sk--------';
     let apiMessages = chatMessages.map((messageObject) => {
       let role = '';
       if (messageObject.sender === 'ChatGPT') {
